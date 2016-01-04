@@ -50,6 +50,7 @@ brew cask install mysqlworkbench
 brew cask install slack
 brew cask install haroopad
 brew cask install trolcommander
+brew cask install atom
 
 brew cleanup
 brew cask cleanup
