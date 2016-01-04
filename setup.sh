@@ -32,7 +32,7 @@ brew update
 brew install caskroom/cask/brew-cask
 brew tap jamadam/temp
 
-brew npm
+brew install npm
 
 brew cask install java
 brew cask install virtualbox
