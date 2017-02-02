@@ -26,31 +26,37 @@
 # Homebrew Cask でのアプリのインストール先を ~/Applications から /Applications へと変更する
 # https://github.com/caskroom/homebrew-cask/blob/master/USAGE.md#options
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.bashrc
 
 brew update
-
 brew install caskroom/cask/brew-cask
-brew tap jamadam/temp
-
-brew install npm
-
-brew cask install java
-brew cask install virtualbox
-brew cask install vagrant
-brew cask install firefox
-brew cask install google-chrome
-brew cask install libreoffice
-brew cask install google-hangouts
-brew cask install komodo-edit
-brew cask install eclipse-php
-brew cask install netbeans-php
-brew cask install sourcetree
-brew cask install thunderbird
-brew cask install mysqlworkbench
-brew cask install slack
-brew cask install haroopad
-brew cask install trolcommander
-brew cask install atom
+#brew tap jamadam/temp
+brew cask reinstall java
+brew cask reinstall virtualbox
+brew cask reinstall vagrant
+brew cask reinstall firefox
+brew cask reinstall google-chrome
+brew cask reinstall libreoffice
+brew cask reinstall google-hangouts
+brew cask reinstall komodo-edit
+#brew cask reinstall eclipse-php
+#brew cask reinstall netbeans-php
+brew cask reinstall sourcetree
+brew cask reinstall thunderbird
+brew cask reinstall mysqlworkbench
+brew cask reinstall slack
+brew cask reinstall trolcommander
+brew cask reinstall keka
+brew cask reinstall jedit
+brew cask reinstall imageoptim
+brew cask reinstall limechat
+brew cask reinstall skype
+brew cask reinstall 0xed
+brew cask reinstall atom
+brew reinstall azure-cli
 
 brew cleanup
 brew cask cleanup
+
+#gem install scss_lint
+vagrant plugin install vagrant-vbguest
