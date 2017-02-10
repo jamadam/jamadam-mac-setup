@@ -54,6 +54,7 @@ brew cask reinstall skype
 brew cask reinstall 0xed
 brew cask reinstall atom
 brew reinstall azure-cli
+brew reinstall openssl
 
 brew cleanup
 brew cask cleanup
