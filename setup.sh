@@ -55,6 +55,7 @@ brew cask reinstall 0xed
 brew cask reinstall atom
 brew reinstall azure-cli
 brew reinstall openssl
+brew reinstall gimp
 
 brew cleanup
 brew cask cleanup
