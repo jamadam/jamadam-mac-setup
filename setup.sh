@@ -33,6 +33,8 @@ brew cask install db-browser-for-sqlite
 brew reinstall azure-cli
 brew reinstall openssl
 brew reinstall gimp
+brew cask install docker
+brew cask install zoomus
 
 brew cleanup
 brew cask cleanup
