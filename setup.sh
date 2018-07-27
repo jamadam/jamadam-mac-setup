@@ -4,7 +4,7 @@
 #
 
 # Homebrew をインストール
-# $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew update
 brew cask reinstall iterm2
