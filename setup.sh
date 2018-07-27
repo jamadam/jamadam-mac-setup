@@ -35,6 +35,7 @@ brew reinstall openssl
 brew reinstall gimp
 brew cask install docker
 brew cask install zoomus
+brew caks install onyx
 
 brew cleanup
 brew cask cleanup
