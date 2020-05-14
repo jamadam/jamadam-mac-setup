@@ -18,7 +18,7 @@ brew cask reinstall sourcetree
 brew cask reinstall thunderbird
 brew cask reinstall mysqlworkbench
 brew cask reinstall slack
-brew cask reinstall trolcommander
+brew cask reinstall mucommander
 brew cask reinstall keka
 brew cask reinstall jedit
 brew cask reinstall imageoptim
