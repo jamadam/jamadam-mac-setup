@@ -4,42 +4,20 @@
 #
 
 # Homebrew をインストール
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew update
-brew cask reinstall iterm2
-brew cask reinstall java
-brew cask reinstall virtualbox
-brew cask reinstall vagrant
-brew cask reinstall firefox
-brew cask reinstall google-chrome
-brew cask reinstall google-hangouts
-brew cask reinstall sourcetree
-brew cask reinstall thunderbird
-brew cask reinstall mysqlworkbench
-brew cask reinstall slack
-brew cask reinstall mucommander
-brew cask reinstall keka
-brew cask reinstall jedit
-brew cask reinstall imageoptim
-brew cask install remote-desktop-connection
-brew reinstall openssl
-brew reinstall gimp
-brew cask install docker
-brew cask install zoomus
-
-#brew cask reinstall libreoffice
-#brew cask reinstall komodo-edit
-#brew cask reinstall limechat
-#brew cask reinstall skype
-#brew cask reinstall 0xed
-#brew cask reinstall atom
-#brew caks install onyx
-#brew cask install db-browser-for-sqlite
-#brew reinstall azure-cli
+brew reinstall --cask iterm2
+brew reinstall --cask firefox
+brew reinstall --cask google-chrome
+brew reinstall --cask atom
+brew reinstall --cask sourcetree
+brew reinstall --cask mysqlworkbench
+brew reinstall --cask slack
+brew reinstall --cask mucommander
+brew reinstall --cask keka
+brew reinstall --cask docker
+brew reinstall --cask zoom
+brew reinstall --cask libreoffice
 
 brew cleanup
-brew cask cleanup
-
-#gem install scss_lint
-vagrant plugin install vagrant-vbguest
